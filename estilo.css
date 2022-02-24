@@ -1,0 +1,67 @@
+div.container-fluid> img{
+    width: 40%;
+    height:auto;
+    margin: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 8px 10px 13px black;
+    border-radius: 30px;
+}
+
+.cards {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 10px;
+    margin: 80px;
+    box-shadow: 8px 10px 13px black;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-variant-position: normal;
+
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 350px 1fr;
+    margin: 2px;
+    box-shadow: 8px 10px 13px black;
+
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height:100% ;
+}
+h2{
+    background-color: chartreuse;
+    box-shadow: 8px 10px 13px black;
+    border-radius: 3px;
+   
+}
+h1{
+    
+    background-image: url(https://www.ngenespanol.com/wp-content/uploads/2018/08/Tecnolog%C3%ADa-en-favor-de-los-bosques-1280x720.jpg);
+    background-attachment:fixed;
+    background-size: cover ;
+    height: 150px;   
+    box-shadow: 8px 10px 13px black;
+    text-shadow: 5cm;
+    font-size: 7vmax;
+    text-align-last: center;
+
+}
+body{
+    background-image:url( https://historiadelavida.editorialaces.com/wp-content/uploads/2019/06/Despues-de-todo-el-oceano-es-azul-o-verde-ENTRADA.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover ;
+    
+}
+
+main{
+    background-color: cornsilk;
+    box-shadow: 8px 10px 13px black;
+    border-radius: 10px;
+}
